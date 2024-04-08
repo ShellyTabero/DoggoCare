@@ -1,0 +1,35 @@
+/* style.css */
+button {
+    background-color: #FFC084 !important;
+    color: black !important;
+    padding: 10px 24px !important;
+    border-radius: 12px !important;
+    border: none !important;
+    font-size: 16px !important;
+    cursor: pointer !important;
+}
+
+/* Input field styles */
+.stTextInput>div>div>input {
+    border-radius: 20px;
+    border: 1px solid #FFC084;
+}
+
+/* Custom markdown styles for titles and subtitles */
+h1, h3, h4 {
+    font-family: 'Gadugi', fantasy;
+    color: #333;
+}
+
+.custom-text {
+    font-family: 'Gadugi', fantasy;
+    color: #333;
+}
+
+
+/* Frame for image */
+.img-frame {
+    border: 5px solid #555;
+    padding: 10px;
+    display: inline-block;
+}
