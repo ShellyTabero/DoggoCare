@@ -1,7 +1,7 @@
 import streamlit as st
+import env
 
-# TODO: Replace to your Gemini API key here
-GOOGLE_API_KEY = 'Your_API_KEY'
+GOOGLE_API_KEY = env.GOOGLE_API_KEY
 
 current_profile = None
 email = None
